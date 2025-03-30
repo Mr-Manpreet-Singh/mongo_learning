@@ -1,3 +1,11 @@
-use("myDatabase");
+use("config");
 
-db.users.find({ age: { $gt: 25 } });
+db.stats();
+
+
+db.serverStatus(); 
+
+
+// db.users.find();
+
+db.currentOp();
